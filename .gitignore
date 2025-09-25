@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Dataset (too large for git)
+dataset/
+
+# Training outputs
+checkpoints/
+results/
+test_results/
+noise_results/
+result.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Paper (too large for git)
+paper/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
