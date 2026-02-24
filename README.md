@@ -18,6 +18,9 @@ Standard attention uses **one global metric** for all queries. LGA learns a **qu
 
 The first robustness benchmark for time series forecasting. Uses **Extreme Value Theory (EVT)** to inject realistic corruptions at 5 severity levels.
 
+> Want to inject noise into **your own datasets**? TSRBench is available as a standalone pip-installable toolkit with 6 corruption types, a Python API, and support for any CSV/DataFrame input.
+> Check out the **[TSRBench repository](https://github.com/dongbeank/TSRBench)** for details.
+
 <p align="center">
 <img src="assets/original.png" width="24%">
 <img src="assets/original_exponential_spike.png" width="24%">
